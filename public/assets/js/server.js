@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(express.static('public'));//allows us to reference css and html files in javascript 
 
-app.get('/', (req, res) => {
+app.get('api/notes', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
