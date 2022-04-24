@@ -1,5 +1,5 @@
 // TODO: Import express
-const express = require('express')
+const express = require('express');
 const app = express()
 const PORT = 3001;
 
@@ -15,14 +15,14 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/api/notes', (req, res) => res.json(notesData));
+app.get('/api/notes', (req, res) => res.json(notes));
 
-app.listen(PORT, () => {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+app.listen(3001, () => {
+  console.log(`Example app listening at http://localhost:${3001}`);
 });
 
 
-
+//should it look like this router.post 
 
 
 
