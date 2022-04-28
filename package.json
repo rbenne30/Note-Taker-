@@ -20,6 +20,5 @@
   "homepage": "https://github.com/rbenne30/Note-Taker-#readme",
   "dependencies": {
     "express": "^4.18.0"
-    
   }
 }
