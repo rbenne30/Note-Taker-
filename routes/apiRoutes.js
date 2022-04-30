@@ -11,7 +11,13 @@ storage
     .catch((err)=> res.status(500).json(err))
 });
 router.post("/notes", (req, res)=>{
-
+    res.json({
+        message: 'Note created!'
+    });
 });
+router.delete('/note/:id',(req, res) => {
+     const id  = req.params.id
+     res.json({id:id})   
+})
 
 module.exports = router;
