@@ -1,6 +1,3 @@
-const server = reqiure('server');
-
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -184,4 +181,3 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
-
