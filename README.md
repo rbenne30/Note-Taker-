@@ -8,4 +8,4 @@ I will not be accepting Contributions at this time.
 Please contact with any questions: 
 [Email]
 (ryannebennett1@outlook.com)
-demo: https://fast-atoll-10406.herokuapp.com/
+##demo: https://fast-atoll-10406.herokuapp.com/
